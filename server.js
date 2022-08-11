@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
 
-    res.sendFile("./views/index.html")
+    res.sendFile("views/index.html")
 
 });
 
